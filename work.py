@@ -3,8 +3,12 @@ This extracts the metadata and filename and then makes and prints a new filename
 This is the unstructured version of our work thus far
 """
 import eyed3
+from glob import glob
 from os.path import join
 from os.path import basename
+
+for filename in glob(join("acc_web", "2013", "*.mp3")):
+    print(filename)
 
 path = join("acc_web", "2018", "-180107_000.mp3")
 print(path)

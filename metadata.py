@@ -2,6 +2,7 @@ import eyed3
 from glob import glob
 from os.path import join
 from os.path import basename
+from os import rename
 
 
 def get_date(filename):
@@ -18,9 +19,10 @@ def get_date(filename):
 def make_name(date, scripture, speaker):
     filename = date
 
-    for item in (scripture, speaker):
-        if item is not None:
-            filename += " - " + item
+    if scripture is not None:
+        filename += " - " + scripture.replace(":", " vs")
+    if speaker is not None:
+        filename += " - " + speaker
 
     return filename
 
@@ -48,3 +50,10 @@ for directory in glob(join("acc_web", "*")):
         filename = make_name(get_date(filename), scripture, speaker)
 
         print(filename)
+
+        new_path = join(directory, filename)
+
+        print(path)
+        print(new_path)
+
+        rename(path, new_path)
