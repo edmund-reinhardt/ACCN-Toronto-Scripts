@@ -24,6 +24,8 @@ def make_name(date, scripture, speaker):
     if speaker is not None:
         filename += " - " + speaker
 
+    filename += ".mp3"
+
     return filename
 
 
