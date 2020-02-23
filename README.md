@@ -32,3 +32,11 @@ Example new filename:
 ```
 2013-01-13 AM - Romans 10 - Doug Savin.mp3
 ```
+
+#### Google Drive archives
+* all years from 2011 to 2015 is stored on the Google Drive of accntoronto.sermons12@gmail.com
+* all years from 2016 to 2018 is stored on the Google Drive of accntoronto.sermons16@gmail.com
+* all years from 2019 to ... is stored on the Google Drive of accntoronto.sermons19@gmail.com
+* once files are renamed via rename.bat, copy them to the appropriate Google Drive and 
+ask the web master to point to them from the sermons archive page on the web site
+
