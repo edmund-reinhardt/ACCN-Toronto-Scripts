@@ -1,0 +1,21 @@
+<rss  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+<title>Toronto ACC Sermons</title>
+<itunes:author>Toronto Apostolic Christian Church (Nazarean)</itunes:author>
+<itunes:owner><itunes:email>accntoronto@gmail.com</itunes:email></itunes:owner>
+<itunes:image href="http://accn-toronto.org/media/mp3/sermons/podcastImage.png"/>
+<itunes:summary>
+Sermons and other audio from Apostolic Christian Church in Toronto, ON
+</itunes:summary>
+<language>en</language>
+<itunes:explicit>no</itunes:explicit>
+<link>http://accn-toronto.org</link>
+<itunes:category text="Religion &amp; Spirituality" />
+<item> 
+<title>Matthew 18</title>
+<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200216_001.mp3" length="39700000" type="audio/x-mp3"/>
+<itunes:summary>Doug Savin</itunes:summary>
+<pubDate>Sunday, 16 Feb 2020 14:30:00 EST</pubDate>
+</item>
+</channel>
+</rss>

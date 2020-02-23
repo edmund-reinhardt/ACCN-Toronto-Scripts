@@ -1,0 +1,1 @@
+my_venv\Scripts\python sync_sermons.py
