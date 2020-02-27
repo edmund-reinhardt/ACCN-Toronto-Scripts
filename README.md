@@ -1,5 +1,9 @@
 # acc-website-scripts
 
+## Update RSS XML with sermons detected from mp3 files
+Will take an individual or directory-full of mp3 files and update the RSS xml file to list them all
+
+
 ## Upload sermons to website
 compares the mp3 files on the web site with the local directory, and uploads them
 * in the future, the rss xml file will be updated as well
