@@ -23,7 +23,7 @@ directory = filedialog.askdirectory()
 for path in glob(join(directory, "*.mp3")):
     print(path)
 
-    scripture, speaker, date, size = get_metadata(path)
+    scripture, speaker, date = get_metadata(path)
 
     new_filename = make_name(date, scripture, speaker)
 

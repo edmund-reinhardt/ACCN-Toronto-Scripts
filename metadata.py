@@ -6,7 +6,7 @@ import eyed3
 def get_metadata(path):
     scripture, speaker = get_scripture_speaker(path)
 
-    return scripture, speaker, get_date(basename(path)), getsize(path)
+    return scripture, speaker, get_date(basename(path))
 
 
 def get_scripture_speaker(path):
