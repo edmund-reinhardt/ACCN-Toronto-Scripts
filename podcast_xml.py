@@ -6,11 +6,13 @@ from xml.dom import minidom
 
 from metadata import get_metadata
 
+XML_FILE = 'accntoronto_rss.xml'
 
-def add_item(path: str, parent: ET.Element):
+
+def add_item(path: str, tree: ET.ElementTree):
+    item = ET.SubElement(tree.getroot().find("channel"), 'item')
+
     scripture, speaker, date = get_metadata(path)
-    item = ET.SubElement(parent, 'item')
-
     title = ET.SubElement(item, 'title')
     title.text = f"{date}: {speaker} - {scripture}"
     enclosure = ET.SubElement(item, 'enclosure')
@@ -32,17 +34,25 @@ def pretty_print(root: ET.Element) -> str:
         )).toprettyxml()
 
 
+def parse_rss_xml():
+    ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
+    tree = ET.parse(XML_FILE)
+    return tree
+
+
+def write_rss_xml(tree: ET.ElementTree):
+    with open(XML_FILE, "w") as f:
+        f.write(pretty_print(tree.getroot()))
+
+
 # Generate all of the RSS XML items from the mp3 files in the directory path specified
 # through file dialog
 if __name__ == '__main__':
-    ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
-    xml_file = 'accntoronto_rss.xml'
-    tree = ET.parse(xml_file)
+    tree = parse_rss_xml()
 
     directory = filedialog.askdirectory()
     for path in glob(join(directory, "*.mp3")):
         print(path)
-        add_item(path, tree.getroot()[0])
+        add_item(path, tree)
 
-    with open(xml_file, "w") as f:
-        f.write(pretty_print(tree.getroot()))
+    write_rss_xml(tree)
