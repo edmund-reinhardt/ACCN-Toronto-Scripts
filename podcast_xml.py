@@ -1,5 +1,8 @@
 import xml.etree.ElementTree as ET
-from os.path import basename, getsize
+from glob import glob
+from os.path import basename, getsize, join
+from tkinter import filedialog
+from xml.dom import minidom
 
 from metadata import get_metadata
 
@@ -20,16 +23,26 @@ def add_item(path: str, parent: ET.Element):
     return item
 
 
+def pretty_print(root: ET.Element) -> str:
+    return minidom.parseString(
+        ET.tostring(
+            root,
+            encoding='unicode',
+            method="xml"
+        )).toprettyxml()
+
+
+# Generate all of the RSS XML items from the mp3 files in the directory path specified
+# through file dialog
 if __name__ == '__main__':
-    tree = ET.parse('accntoronto_rss.xml')
-    # root = tree.getroot()
+    ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
+    xml_file = 'accntoronto_rss.xml'
+    tree = ET.parse(xml_file)
 
-    # print(root)
-    # print(tree.findall("./channel/item"))
-    # for item in tree.getroot().iter('item'): print(item.attrib)
-    #    path = 'C:\\Users\\Nlisu\\OneDrive\\Desktop\\Current Courses\\Side Project with Church\\ACCN-Toronto-Scripts\\-160103_000.mp3'
+    directory = filedialog.askdirectory()
+    for path in glob(join(directory, "*.mp3")):
+        print(path)
+        add_item(path, tree.getroot()[0])
 
-    path = 'C:\\Users\\EDMUNDReinhardt\\accweb\\2020\\-200223_001.mp3'
-    item = add_item(path, tree.getroot()[0])
-    ET.dump(item)
-    ET.dump(tree)
+    with open(xml_file, "w") as f:
+        f.write(pretty_print(tree.getroot()))

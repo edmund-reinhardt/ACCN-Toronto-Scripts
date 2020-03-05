@@ -1,49 +1,127 @@
+<?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-    <channel>
-        <title>ACC Toronto Services</title>
-        <itunes:author>Toronto Apostolic Christian Church (Nazarean)</itunes:author>
-        <itunes:owner>
-            <itunes:email>accntoronto@gmail.com</itunes:email>
-        </itunes:owner>
-        <itunes:image href="http://accn-toronto.org/media/mp3/sermons/podcastImage.png"/>
-        <itunes:summary>
+	
+    
+	<channel>
+		
+        
+		<title>ACC Toronto Services</title>
+		
+        
+		<itunes:author>Toronto Apostolic Christian Church (Nazarean)</itunes:author>
+		
+        
+		<itunes:owner>
+			
+            
+			<itunes:email>accntoronto@gmail.com</itunes:email>
+			
+        
+		</itunes:owner>
+		
+        
+		<itunes:image href="http://accn-toronto.org/media/mp3/sermons/podcastImage.png"/>
+		
+        
+		<itunes:summary>
             Sermons and other audio from Apostolic Christian Church in Toronto, ON
         </itunes:summary>
-        <language>en</language>
-        <itunes:explicit>no</itunes:explicit>
-        <link>http://accn-toronto.org</link>
-        <itunes:category text="Religion &amp; Spirituality"/>
+		
+        
+		<language>en</language>
+		
+        
+		<itunes:explicit>no</itunes:explicit>
+		
+        
+		<link>http://accn-toronto.org</link>
+		
+        
+		<itunes:category text="Religion &amp; Spirituality"/>
+		
 
-        <item>
-            <title>Feb 23, 2020 AM: Edmund Reinhardt - Psalm 73 - World Envy from Sanctuary's Perspective</title>
-            <enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200223_000.mp3" length="39700000"
-                       type="audio/x-mp3"/>
-            <itunes:summary>Sunday Morning Sermon by Edmund Reinhardt on Psalm 73 - World Envy from Sanctuary's
-                Perspective
-            </itunes:summary>
-            <pubDate>Sunday, 23 Feb 2020 10:30:00 EST</pubDate>
-        </item>
-        <item>
-            <title>Feb 16, 2020 PM: Doug Savin - Matthew 18</title>
-            <enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200216_001.mp3" length="39700000"
-                       type="audio/x-mp3"/>
-            <itunes:summary>Sunday Afternoon Sermon by Doug Savin on Matthew 18</itunes:summary>
-            <pubDate>Sunday, 16 Feb 2020 14:30:00 EST</pubDate>
-        </item>
-        <item>
-            <title>Feb 16, 2020 AM: Philip Denzinger - Colossians 2</title>
-            <enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200216_001.mp3" length="39700000"
-                       type="audio/x-mp3"/>
-            <itunes:summary>Sunday Morning Sermon by Philip Denzinger on Colossians 2</itunes:summary>
-            <pubDate>Sunday, 16 Feb 2020 10:30:00 EST</pubDate>
-        </item>
-        <item>
-            <title>Feb 9, 2020 AM: David Freund - Romans 8 - The Holy Spirit Working in Us</title>
-            <enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200216_001.mp3" length="39700000"
-                       type="audio/x-mp3"/>
-            <itunes:summary>Sunday Morning Sermon by David Freund on Romans 8 on the occasion of the Mid-Winter Sing
-            </itunes:summary>
-            <pubDate>Sunday, 09 Feb 2020 10:30:00 EST</pubDate>
-        </item>
-    </channel>
+    
+		<item>
+			<title>2020-01-05 AM: Phillip Denzinger - Galatians 3-4</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200105_000.mp3" length="53972374" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Phillip Denzinger on Galatians 3-4</itunes:summary>
+		</item>
+		<item>
+			<title>2020-01-05 PM: Doug Savin - Luke 3</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200105_001.mp3" length="40696527" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Doug Savin on Luke 3</itunes:summary>
+		</item>
+		<item>
+			<title>2020-01-12 AM: Edmund Reinhardt - Acts 1-2</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200112_000.mp3" length="63883134" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Edmund Reinhardt on Acts 1-2</itunes:summary>
+		</item>
+		<item>
+			<title>2020-01-12 PM: Eckhard Denzinger - Romans 14</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200112_001.mp3" length="26224534" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Eckhard Denzinger on Romans 14</itunes:summary>
+		</item>
+		<item>
+			<title>2020-01-19 PM: Eric Denzinger - James 4</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200119_001.mp3" length="39182206" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Eric Denzinger on James 4</itunes:summary>
+		</item>
+		<item>
+			<title>2020-01-26 AM: Doug Savin - Romans 3</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200126_000.mp3" length="59600205" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Doug Savin on Romans 3</itunes:summary>
+		</item>
+		<item>
+			<title>2020-01-26 PM: Phillip Denzinger - John 16</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200126_001.mp3" length="24780946" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Phillip Denzinger on John 16</itunes:summary>
+		</item>
+		<item>
+			<title>2020-02-02 AM: Edmund Reinhardt - Galatians 5</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200202_000.mp3" length="52534974" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Edmund Reinhardt on Galatians 5</itunes:summary>
+		</item>
+		<item>
+			<title>2020-02-02 PM: Eckhard Denzinger - Mark 9</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200202_001.mp3" length="29808271" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Eckhard Denzinger on Mark 9</itunes:summary>
+		</item>
+		<item>
+			<title>2020-02-09 AM: David Freund - Romans 8</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200209_000.mp3" length="101961255" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by David Freund on Romans 8</itunes:summary>
+		</item>
+		<item>
+			<title>2020-02-16 AM: Phillip Denzinger - Colossians 2</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200216_000.mp3" length="46517762" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Phillip Denzinger on Colossians 2</itunes:summary>
+		</item>
+		<item>
+			<title>2020-02-16 PM: Doug Savin - Mathew 18</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200216_001.mp3" length="41611670" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Doug Savin on Mathew 18</itunes:summary>
+		</item>
+		<item>
+			<title>2020-02-23 AM: Edmund Reinhardt - Psalms 73</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200223_000.mp3" length="46712429" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Edmund Reinhardt on Psalms 73</itunes:summary>
+		</item>
+		<item>
+			<title>2020-02-23 PM: Phillip Denzinger - 2 Peter 3</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200223_001.mp3" length="29672552" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Phillip Denzinger on 2 Peter 3</itunes:summary>
+		</item>
+		<item>
+			<title>2020-03-01 AM: Eckhard Denzinger - Luke 8</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200301_000.mp3" length="45655822" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Eckhard Denzinger on Luke 8</itunes:summary>
+		</item>
+		<item>
+			<title>2020-03-01 PM: Thomas Nitz - Revelation 20</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200301_001.mp3" length="51436718" type="audio/x-mp3"/>
+			<itunes:summary>Sunday service by Thomas Nitz on Revelation 20</itunes:summary>
+		</item>
+	</channel>
+	
+
 </rss>
