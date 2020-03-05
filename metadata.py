@@ -1,4 +1,4 @@
-from os.path import basename
+from os.path import basename, getsize
 
 import eyed3
 
@@ -6,7 +6,7 @@ import eyed3
 def get_metadata(path):
     scripture, speaker = get_scripture_speaker(path)
 
-    return scripture, speaker, get_date(basename(path))
+    return scripture, speaker, get_date(basename(path)), getsize(path)
 
 
 def get_scripture_speaker(path):
@@ -36,3 +36,6 @@ def get_date(filename):
         date += " PM"
 
     return date
+
+
+
