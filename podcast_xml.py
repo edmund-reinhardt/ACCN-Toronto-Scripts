@@ -10,6 +10,8 @@ XML_FILE = 'accntoronto_rss.xml'
 
 
 def add_item(path: str, tree: ET.ElementTree):
+    """add the item xml element corresponding to the mp3 file at 'path'
+       as a child of the 'tree' element"""
     item = ET.SubElement(tree.getroot().find("channel"), 'item')
 
     scripture, speaker, date = get_metadata(path)
