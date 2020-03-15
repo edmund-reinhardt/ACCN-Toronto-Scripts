@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime
 from glob import glob
 from os.path import basename, getsize, join
 from tkinter import filedialog
@@ -23,16 +23,20 @@ def add_item(path: str, tree: ET.ElementTree):
     enclosure.set('length', str(getsize(path)))
     enclosure.set('type', 'audio/x-mp3')
     summary = ET.SubElement(item, 'itunes:summary')
-    time_of_day = get_time_of_day(date)
+    time_of_day = get_verbose_am_pm(date)
     summary.text = f"Sunday {time_of_day} service by {speaker} on {scripture}"
 
     pub_date = ET.SubElement(item, 'pubDate')
-    pub_date.text= get_full_date(date)
+    pub_date.text = get_full_date(date)
 
     return item
 
 
-def get_time_of_day(date: str)->str:
+def get_verbose_am_pm(date: str) -> str:
+    """
+    :param date: in the format '2020-01-13 AM'
+    :return:  the string 'morning' or 'afternoon' if date ends in 'AM' or 'PM'
+    """
     time_day = date.split(" ")[1]
     if time_day == "AM":
         return "morning"
@@ -44,7 +48,7 @@ def get_full_date(date: str):
     am_or_pm = date.split(" ")
     date_parts = am_or_pm[0].split("-")
     date_time = datetime(int(date_parts[0]), int(date_parts[1]), int(date_parts[2]))
-    date_time = date_time.replace(minute=30)  #, tzinfo='EST')
+    date_time = date_time.replace(minute=30)  # , tzinfo='EST')
     if am_or_pm[1] == "AM":
         date_time = date_time.replace(hour=10)
     else:

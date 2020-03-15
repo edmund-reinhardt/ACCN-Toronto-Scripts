@@ -36,6 +36,3 @@ def get_date(filename):
         date += " PM"
 
     return date
-
-
-
