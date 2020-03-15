@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timezone
 from glob import glob
 from os.path import basename, getsize, join
 from tkinter import filedialog
@@ -26,7 +26,7 @@ def add_item(path: str, tree: ET.ElementTree):
     time_of_day = get_time_of_day(date)
     summary.text = f"Sunday {time_of_day} service by {speaker} on {scripture}"
 
-    pub_date = ET.SubElement(item, 'pubData')
+    pub_date = ET.SubElement(item, 'pubDate')
     pub_date.text= get_full_date(date)
 
     return item
@@ -42,14 +42,14 @@ def get_time_of_day(date: str)->str:
 
 def get_full_date(date: str):
     am_or_pm = date.split(" ")
-    date1 = am_or_pm[0].split("-")
-    print(date1[0])
-    full_date_time = datetime(int(date1[0]), int(date1[1]), int(date1[2]))
+    date_parts = am_or_pm[0].split("-")
+    date_time = datetime(int(date_parts[0]), int(date_parts[1]), int(date_parts[2]))
+    date_time = date_time.replace(minute=30)  #, tzinfo='EST')
     if am_or_pm[1] == "AM":
-        time = "10:30:00"
+        date_time = date_time.replace(hour=10)
     else:
-        time = "14:30:00"
-    return full_date_time.strftime(f"%A, %d %b %Y {time} EST")
+        date_time = date_time.replace(hour=14)
+    return date_time.strftime(f"%a, %d %b %Y %H:%M:%S -0500")
 
 
 def pretty_print(root: ET.Element) -> str:
