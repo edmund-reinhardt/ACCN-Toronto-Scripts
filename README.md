@@ -1,5 +1,26 @@
 # acc-website-scripts
 
+## Installation
+
+* Install python >= 3.8
+* Open a terminal and navigate 
+to the project directory
+* Create a virtual environment 
+named `venv` in the project directory:
+```shell script
+python -m venv venv
+```
+* Activate the virtual environment to 
+use the specific version of Python and 
+pip from the virtual environment with a 
+command similar to `source venv/Scripts/activate`.
+* Install the required dependencies to 
+the virtual environment:
+```shell script
+pip install -r requirements.txt
+```
+
+
 ## Update RSS XML with sermons detected from mp3 files
 Will take an individual or directory-full of mp3 files and update the RSS xml file to list them all
 
@@ -22,8 +43,8 @@ Extracts date from filename and metadata from .mp3 files and uses this data to r
 ### Usage
 * Run the `rename.bat` windows batch file.
 * This opens `rename_old.py` with Python (tested with Python `3.7` and `3.8`) 
-* You should see a folder selection window.
-* Select the folder that directly contains the .mp3 files you would like renamed
+* You should see a folder selection 
+ontains the .mp3 files you would like renamed
 * All the .mp3 files in the folder that you selected will be renamed.
 * The renamed files can be moved to Google Drive as an archive and free up web space
 
