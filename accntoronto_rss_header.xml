@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>ACC Toronto Services</title>
+		<itunes:author>Toronto Apostolic Christian Church (Nazarean)</itunes:author>
+		<itunes:owner>
+			<itunes:email>accntoronto@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:image href="http://accn-toronto.org/media/mp3/sermons/podcastImage.png"/>
+		<itunes:summary>
+            Sermons and other audio from Apostolic Christian Church in Toronto, ON
+        </itunes:summary>
+		<language>en</language>
+		<itunes:explicit>no</itunes:explicit>
+		<link>http://accn-toronto.org</link>
+		<itunes:category text="Religion &amp; Spirituality"/>
+	</channel>
+</rss>

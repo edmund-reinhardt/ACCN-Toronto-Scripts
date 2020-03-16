@@ -8,6 +8,7 @@ from xml.dom import minidom
 from metadata import get_metadata
 
 XML_FILE = 'accntoronto_rss.xml'
+XML_HEADER = 'accntoronto_rss_header.xml'
 
 
 def add_item(path: str, tree: ET.ElementTree):
@@ -45,14 +46,19 @@ def get_verbose_am_pm(date: str) -> str:
 
 
 def get_full_date(date: str):
+    """
+    Convert date to full published date format expected in RSS XML
+    Eastern Standard time assumed, morning services begin as 10:30, afternoon at 14:30
+    :param date: in the format '2020-01-15 AM'
+    :return: <pubDate> format i.e. 'Sun, 15 Mar 2020 10:30:00 -0500'
+    """
     am_or_pm = date.split(" ")
     date_parts = am_or_pm[0].split("-")
-    date_time = datetime(int(date_parts[0]), int(date_parts[1]), int(date_parts[2]))
-    date_time = date_time.replace(minute=30)  # , tzinfo='EST')
-    if am_or_pm[1] == "AM":
-        date_time = date_time.replace(hour=10)
-    else:
-        date_time = date_time.replace(hour=14)
+    hour = 10
+    minutes = 30
+    if am_or_pm[1] == "PM":
+        hour = 14
+    date_time = datetime(int(date_parts[0]), int(date_parts[1]), int(date_parts[2]), hour, minutes)
     return date_time.strftime(f"%a, %d %b %Y %H:%M:%S -0500")
 
 
@@ -67,7 +73,7 @@ def pretty_print(root: ET.Element) -> str:
 
 def parse_rss_xml():
     ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
-    tree = ET.parse(XML_FILE)
+    tree = ET.parse(XML_HEADER)
     return tree
 
 
