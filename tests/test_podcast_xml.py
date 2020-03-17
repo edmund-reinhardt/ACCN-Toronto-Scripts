@@ -1,5 +1,10 @@
 """Test all the functionality in podcast_xml"""
 import xml.etree.ElementTree as ET
+from glob import glob
+from os.path import join
+
+from podcast_xml import add_item, parse_rss_xml, pretty_print
+
 
 def test_get_verbose_am_pm():
     from podcast_xml import get_verbose_am_pm
@@ -14,4 +19,7 @@ def test_get_full_date():
 
 
 def test_add_item():
-    pass
+    tree = parse_rss_xml()
+    add_item("-200126_001.mp3", tree)
+    result = pretty_print(tree)
+    print(result)

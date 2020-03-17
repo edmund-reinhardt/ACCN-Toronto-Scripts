@@ -14,7 +14,7 @@ XML_HEADER = 'accntoronto_rss_header.xml'
 def add_item(path: str, tree: ET.ElementTree):
     """add the item xml element corresponding to the mp3 file at 'path'
        as a child of the 'tree' element"""
-    item = ET.SubElement(tree.getroot().find("channel"), 'item')
+    item = ET.SubElement(tree.find("channel"), 'item')
 
     scripture, speaker, date = get_metadata(path)
     title = ET.SubElement(item, 'title')
@@ -29,7 +29,6 @@ def add_item(path: str, tree: ET.ElementTree):
 
     pub_date = ET.SubElement(item, 'pubDate')
     pub_date.text = get_full_date(date)
-
     return item
 
 
@@ -73,13 +72,32 @@ def pretty_print(root: ET.Element) -> str:
 
 def parse_rss_xml():
     ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
-    tree = ET.parse(XML_HEADER)
+    tree = ET.fromstring(
+        """<?xml version="1.0" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>ACC Toronto Services</title>
+        <itunes:author>Toronto Apostolic Christian Church (Nazarean)</itunes:author>
+        <itunes:owner>
+            <itunes:email>accntoronto@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://accn-toronto.org/media/mp3/sermons/podcastImage.png"/>
+        <itunes:summary>
+            Sermons and other audio from Apostolic Christian Church in Toronto, ON
+        </itunes:summary>
+        <language>en</language>
+
+        <itunes:explicit>no</itunes:explicit>
+        <link>http://accn-toronto.org</link>
+        <itunes:category text="Religion &amp; Spirituality"/>
+    </channel>
+</rss>""")
     return tree
 
 
 def write_rss_xml(tree: ET.ElementTree):
     with open(XML_FILE, "w") as f:
-        f.write(pretty_print(tree.getroot()))
+        f.write(pretty_print(tree))
 
 
 # Generate all of the RSS XML items from the mp3 files in the directory path specified
