@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from glob import glob
+from os import linesep
 from os.path import basename, getsize, join
 from tkinter import filedialog
 from xml.dom import minidom
@@ -62,12 +63,16 @@ def get_full_date(date: str):
 
 
 def pretty_print(root: ET.Element) -> str:
-    return minidom.parseString(
+    return strip_empty_lines(minidom.parseString(
         ET.tostring(
             root,
             encoding='unicode',
             method="xml"
-        )).toprettyxml()
+        )).toprettyxml())
+
+
+def strip_empty_lines(multi_line: str) -> str:
+    return "\n".join([line for line in multi_line.splitlines() if line.strip() != ""])
 
 
 def parse_rss_xml():
