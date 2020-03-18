@@ -1,5 +1,5 @@
 """Test all the functionality in podcast_xml"""
-from podcast_xml import add_item, parse_rss_xml, pretty_print, strip_empty_lines, get_verbose_am_pm, get_full_date
+from accweb.podcast_xml import add_item, parse_rss_xml, pretty_print, strip_empty_lines, get_verbose_am_pm, get_full_date
 
 
 def test_get_verbose_am_pm():

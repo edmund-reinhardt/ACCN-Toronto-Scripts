@@ -1,1 +1,1 @@
-my_venv\Scripts\python sync_sermons.py
+my_venv\Scripts\python accweb\sync_sermons.py

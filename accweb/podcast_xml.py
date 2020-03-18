@@ -1,14 +1,13 @@
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from glob import glob
-from os import linesep
 from os.path import basename, getsize, join
 from tkinter import filedialog
 from xml.dom import minidom
 
-from metadata import get_metadata
+from accweb.metadata import get_metadata
 
-XML_FILE = 'accntoronto_rss.xml'
+XML_FILE = '../accntoronto_rss.xml'
 XML_HEADER = 'accntoronto_rss_header.xml'
 
 
