@@ -2,8 +2,8 @@ from ftplib import FTP
 from os import listdir
 from os.path import join
 
-from credentials import SERVER, USERNAME, PASSWORD
-from podcast_xml import parse_rss_xml, add_item, write_rss_xml, XML_FILE
+from accweb.credentials import SERVER, USERNAME, PASSWORD
+from accweb.podcast_xml import parse_rss_xml, add_item, write_rss_xml, XML_FILE
 
 
 def sync_sermons(server_name, user_name, password, remote_path, local_path):
@@ -39,5 +39,5 @@ if __name__ == '__main__':
         USERNAME,
         PASSWORD,
         "/public_html/media/mp3/sermons/2020",
-        "2020"
+        "../2020"
     )

@@ -1,15 +1,13 @@
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from glob import glob
-from os import linesep
 from os.path import basename, getsize, join
 from tkinter import filedialog
 from xml.dom import minidom
 
-from metadata import get_metadata
+from accweb.metadata import get_metadata
 
-XML_FILE = 'accntoronto_rss.xml'
-XML_HEADER = 'accntoronto_rss_header.xml'
+XML_FILE = '../accntoronto_rss.xml'
 
 
 def add_item(path: str, tree: ET.ElementTree):
@@ -100,7 +98,7 @@ def parse_rss_xml():
     return tree
 
 
-def write_rss_xml(tree: ET.ElementTree):
+def write_rss_xml(tree: ET.Element):
     with open(XML_FILE, "w") as f:
         f.write(pretty_print(tree))
 

@@ -3,7 +3,7 @@ from os import rename
 from os.path import join
 from tkinter import filedialog
 
-from metadata import get_metadata
+from accweb.metadata import get_metadata
 
 
 def make_name(date, scripture, speaker):
