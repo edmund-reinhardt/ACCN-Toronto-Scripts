@@ -1,5 +1,5 @@
 # acc-website-scripts
-
+[![Build Status](https://travis-ci.com/edmund-reinhardt/ACCN-Toronto-Scripts.svg?branch=master)](https://travis-ci.com/edmund-reinhardt/ACCN-Toronto-Scripts)
 ## Installation
 
 * Install python >= 3.8
