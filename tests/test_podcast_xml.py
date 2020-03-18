@@ -1,4 +1,6 @@
 """Test all the functionality in podcast_xml"""
+from os.path import join, dirname
+
 from accweb.podcast_xml import add_item, parse_rss_xml, pretty_print, strip_empty_lines, get_verbose_am_pm, get_full_date
 
 
@@ -18,7 +20,7 @@ def test_strip_empty_lines():
 
 def test_add_item():
     tree = parse_rss_xml()
-    add_item("-200126_001.mp3", tree)
+    add_item(join(dirname(__file__), "-200126_001.mp3"), tree)
     result = pretty_print(tree)
     assert """<?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">

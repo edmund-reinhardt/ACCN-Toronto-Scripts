@@ -8,7 +8,6 @@ from xml.dom import minidom
 from accweb.metadata import get_metadata
 
 XML_FILE = '../accntoronto_rss.xml'
-XML_HEADER = 'accntoronto_rss_header.xml'
 
 
 def add_item(path: str, tree: ET.ElementTree):
@@ -99,7 +98,7 @@ def parse_rss_xml():
     return tree
 
 
-def write_rss_xml(tree: ET.ElementTree):
+def write_rss_xml(tree: ET.Element):
     with open(XML_FILE, "w") as f:
         f.write(pretty_print(tree))
 
