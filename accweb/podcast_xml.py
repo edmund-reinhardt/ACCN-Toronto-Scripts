@@ -75,6 +75,12 @@ def strip_empty_lines(multi_line: str) -> str:
 
 def parse_rss_xml():
     ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
+    tree = tree = ET.parse(XML_FILE)
+    return tree
+
+
+def parse_rss_header():
+    ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
     tree = ET.fromstring(
         """<?xml version="1.0" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
@@ -98,19 +104,31 @@ def parse_rss_xml():
     return tree
 
 
-def write_rss_xml(tree: ET.Element):
+def write_rss_xml(tree: ET.ElementTree):
+    """
+    Serialize the given tree into a indented string and write it
+    to the accntoronto_rss_xml in the project root
+    :param tree: full ElementTree from parsing XMl file
+    """
+    write_rss_file(pretty_print(tree.getroot()))
+
+
+def write_rss_file(file_contents:str):
     with open(XML_FILE, "w") as f:
-        f.write(pretty_print(tree))
+        f.write(file_contents)
+
+
+def gen_rss_for_all_in_dir(directory: str):
+    tree = parse_rss_header()
+    for path in glob(join(directory, "*.mp3")):
+        print(path)
+        add_item(path, tree)
+    return pretty_print(tree)
 
 
 # Generate all of the RSS XML items from the mp3 files in the directory path specified
 # through file dialog
 if __name__ == '__main__':
-    tree = parse_rss_xml()
-
     directory = filedialog.askdirectory()
-    for path in glob(join(directory, "*.mp3")):
-        print(path)
-        add_item(path, tree)
-
-    write_rss_xml(tree)
+    file_contents = gen_rss_for_all_in_dir(directory)
+    write_rss_file(file_contents)
