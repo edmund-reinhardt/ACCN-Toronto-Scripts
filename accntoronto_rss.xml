@@ -122,5 +122,11 @@
 			<itunes:summary>Sunday afternoon service by Eckhard Denzinger on Matthew 18</itunes:summary>
 			<pubDate>Sun, 08 Mar 2020 14:30:00 -0500</pubDate>
 		</item>
+		<item>
+			<title>Eckhard Denzinger - Romans 14</title>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200322_000.mp3" length="26224534" type="audio/x-mp3"/>
+			<itunes:summary>Sunday morning service by Eckhard Denzinger on Romans 14</itunes:summary>
+			<pubDate>Sun, 22 Mar 2020 10:30:00 -0500</pubDate>
+		</item>
 	</channel>
 </rss>
