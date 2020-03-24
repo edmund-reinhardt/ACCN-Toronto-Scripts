@@ -1,5 +1,5 @@
 from ftplib import FTP
-from os import listdir
+from os import listdir, path
 from os.path import join
 
 from accweb.credentials import SERVER, USERNAME, PASSWORD
@@ -11,7 +11,7 @@ def sync_sermons(server_name, user_name, password, remote_path, local_path):
     print(f"Connecting to {server_name}")
     with FTP(server_name, user_name, password) as ftp:
         ftp.cwd(remote_path)
-
+        print(f"Change dir {remote_path}")
         local_files = {f for f in listdir(local_path) if f.endswith(".mp3")}
         remote_files = set(ftp.nlst())
         files_to_transfer = list(local_files - remote_files)
@@ -20,17 +20,27 @@ def sync_sermons(server_name, user_name, password, remote_path, local_path):
         tree = parse_rss_xml()
 
         for f in files_to_transfer:
-            print(f"Uploading {f}")
-            with open(join(local_path, f), "rb") as file_contents:
-                ftp.storbinary('STOR ' + f, file_contents, callback=lambda _: print(".", end=""))
-            add_item(local_path, tree)
+            full_file_name = join(local_path, f)
+            upload(full_file_name, ftp, f)
+            print(f"Updating RSS with entry for {f}")
+            add_item(full_file_name, tree)
 
-        if len(files_to_transfer) != 0:
+        if len(files_to_transfer) > 0:
             write_rss_xml(tree)
-            with open(join(XML_FILE, f), "rb") as file_contents:
-                ftp.storbinary('STOR ' + f, file_contents, callback=lambda _: print(".", end=""))
+            rss_path, year = path.split(remote_path)
+            ftp.cwd(rss_path)
+            print(f"Change dir {rss_path}")
+            basename = path.basename(XML_FILE)
+            upload(XML_FILE, ftp, basename)
 
     print(f"Done uploading {len(files_to_transfer)}")
+
+
+def upload(from_path: str, ftp: FTP, to_filename: str):
+    print(f"Uploading {to_filename} in {ftp.pwd()}")
+    with open(from_path, "rb") as file_contents:
+        ftp.storbinary('STOR ' + to_filename, file_contents, callback=lambda _: print(".", end=""))
+    print("Successfully uploaded from "+from_path)
 
 
 if __name__ == '__main__':

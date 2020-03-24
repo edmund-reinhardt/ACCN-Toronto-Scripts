@@ -23,7 +23,7 @@ if __name__ == '__main__':
     for path in glob(join(directory, "*.mp3")):
         print(path)
 
-        scripture, speaker, date = get_metadata(path)
+        scripture, speaker, date, duration = get_metadata(path)
 
         new_filename = make_name(date, scripture, speaker)
 
