@@ -6,6 +6,7 @@ from tkinter import filedialog
 from xml.dom import minidom
 
 from accweb.metadata import get_metadata
+import hashlib
 
 XML_FILE = '../accntoronto_rss.xml'
 
@@ -15,17 +16,26 @@ def add_item(path: str, tree: ET.ElementTree):
        as a child of the 'tree' element"""
     item = ET.SubElement(tree.find("channel"), 'item')
 
-    scripture, speaker, date = get_metadata(path)
+    scripture, speaker, date, duration = get_metadata(path)
     title = ET.SubElement(item, 'title')
-    title.text = f"{speaker} - {scripture}"
+    title_text = f"{speaker} - {scripture}"
+    title.text = title_text
+    tunes_title = ET.SubElement(item, 'itunes:title')
+    tunes_title.text = title_text
+    url = f"http://accn-toronto.org/media/mp3/sermons/2020/{basename(path)}"
+    link = ET.SubElement(item, 'link')
+    link.text = url
     enclosure = ET.SubElement(item, 'enclosure')
-    enclosure.set('url', f"http://accn-toronto.org/media/mp3/sermons/2020/{basename(path)}")
+    enclosure.set('url', url)
     enclosure.set('length', str(getsize(path)))
-    enclosure.set('type', 'audio/x-mp3')
+    enclosure.set('type', 'audio/mpeg')
     summary = ET.SubElement(item, 'itunes:summary')
     time_of_day = get_verbose_am_pm(date)
     summary.text = f"Sunday {time_of_day} service by {speaker} on {scripture}"
-
+    guid = ET.SubElement(item, 'guid')
+    guid.text = hash_file(path)
+    seconds: ET.Element = ET.SubElement(item, 'itunes:duration')
+    seconds.text = str(round(duration))
     pub_date = ET.SubElement(item, 'pubDate')
     pub_date.text = get_full_date(date)
     return item
@@ -79,6 +89,17 @@ def parse_rss_xml():
     return tree
 
 
+def hash_file(name: str) -> str:
+    BLOCKSIZE = 65536
+    hasher = hashlib.sha1()
+    with open(name, 'rb') as afile:
+        buf = afile.read(BLOCKSIZE)
+        while len(buf) > 0:
+            hasher.update(buf)
+            buf = afile.read(BLOCKSIZE)
+    return hasher.hexdigest()
+
+
 def parse_rss_header():
     ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
     tree = ET.fromstring(
@@ -95,10 +116,11 @@ def parse_rss_header():
             Sermons and other audio from Apostolic Christian Church in Toronto, ON
         </itunes:summary>
         <language>en</language>
-
         <itunes:explicit>no</itunes:explicit>
-        <link>http://accn-toronto.org</link>
-        <itunes:category text="Religion &amp; Spirituality"/>
+        <link>http://accn-toronto.org/sermons</link>
+        <itunes:category text="Religion &amp; Spirituality">
+            <itunes:category text="Christianity"/>
+        </itunes:category>
     </channel>
 </rss>""")
     return tree

@@ -4,9 +4,9 @@ import eyed3
 
 
 def get_metadata(path):
-    scripture, speaker = get_scripture_speaker(path)
+    scripture, speaker, duration = get_scripture_speaker(path)
 
-    return scripture, speaker, get_date(basename(path))
+    return scripture, speaker, get_date(basename(path)), duration
 
 
 def get_scripture_speaker(path):
@@ -15,16 +15,17 @@ def get_scripture_speaker(path):
     :param path: path to a .mp3 file including the .mp3 extension
     :return: scripture, speaker
     """
-    metadata = eyed3.load(path).tag
+    audio_file = eyed3.load(path)
+    tag = audio_file.tag
 
-    if metadata is None:
+    if tag is None:
         scripture = None
         speaker = None
     else:
-        scripture = metadata.album
-        speaker = metadata.artist
+        scripture = tag.album
+        speaker = tag.artist
 
-    return scripture, speaker
+    return scripture, speaker, audio_file.info.time_secs
 
 
 def get_date(filename):
