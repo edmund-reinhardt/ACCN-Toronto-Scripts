@@ -50,7 +50,7 @@ def test_strip_empty_lines():
 
 
 def test_hash_file():
-    assert "8a2e05eeecd4e9810370226eb7e740f5186ee555" == hash_file("-200126_001.mp3")
+    assert "8a2e05eeecd4e9810370226eb7e740f5186ee555" == hash_file(join(dirname(__file__), "-200126_001.mp3"))
 
 
 def test_add_item():
