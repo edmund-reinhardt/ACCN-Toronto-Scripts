@@ -196,5 +196,25 @@
 			<itunes:duration>1479</itunes:duration>
 			<pubDate>Sun, 08 Mar 2020 14:30:00 -0500</pubDate>
 		</item>
+		<item>
+			<title>Phillip Denzinger - 1 Timothy 1-2</title>
+			<itunes:title>Phillip Denzinger - 1 Timothy 1-2</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2020/-200315_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200315_000.mp3" length="40240081" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phillip Denzinger on 1 Timothy 1-2</itunes:summary>
+			<guid>57ed937120be4e9daef1fd9e71fc5965b31c4be1</guid>
+			<itunes:duration>1972</itunes:duration>
+			<pubDate>Sun, 15 Mar 2020 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - 2 Chr 7 and Num 21:4-9</title>
+			<itunes:title>Edmund Reinhardt - 2 Chr 7 and Num 21:4-9</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2020/-200329_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-200329_000.mp3" length="30314510" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Edmund Reinhardt on 2 Chr 7 and Num 21:4-9</itunes:summary>
+			<guid>773fcecaba64a4f7ed02e9ceae21f5c9d8cfd75c</guid>
+			<itunes:duration>1525</itunes:duration>
+			<pubDate>Sun, 29 Mar 2020 10:30:00 -0500</pubDate>
+		</item>
 	</channel>
 </rss>
