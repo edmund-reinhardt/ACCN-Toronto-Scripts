@@ -1,1 +1,2 @@
-my_venv\Scripts\python accweb\sync_sermons.py
+set PYTHONPATH=.
+my_venv\Scripts\python.exe accweb/sync_sermons.py
