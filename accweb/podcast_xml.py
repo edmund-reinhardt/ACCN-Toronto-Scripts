@@ -1,14 +1,14 @@
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from glob import glob
-from os.path import basename, getsize, join
+from os.path import basename, getsize, join, dirname
 from tkinter import filedialog
 from xml.dom import minidom
 
 from accweb.metadata import get_metadata
 import hashlib
 
-XML_FILE = '../accntoronto_rss.xml'
+XML_FILE = join(dirname(__file__), "..", "accntoronto_rss.xml")
 
 
 def add_item(path: str, tree: ET.ElementTree):

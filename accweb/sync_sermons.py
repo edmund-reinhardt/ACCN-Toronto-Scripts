@@ -1,7 +1,9 @@
 from ftplib import FTP
 from os import listdir, path
-from os.path import join
+from os.path import join, dirname
+from sys import path
 
+# path = [".."] + path
 from accweb.credentials import SERVER, USERNAME, PASSWORD
 from accweb.podcast_xml import parse_rss_xml, add_item, write_rss_xml, XML_FILE
 
@@ -40,7 +42,7 @@ def upload(from_path: str, ftp: FTP, to_filename: str):
     print(f"Uploading {to_filename} in {ftp.pwd()}")
     with open(from_path, "rb") as file_contents:
         ftp.storbinary('STOR ' + to_filename, file_contents, callback=lambda _: print(".", end=""))
-    print("Successfully uploaded from "+from_path)
+    print("Successfully uploaded from " + from_path)
 
 
 if __name__ == '__main__':
@@ -49,5 +51,5 @@ if __name__ == '__main__':
         USERNAME,
         PASSWORD,
         "/public_html/media/mp3/sermons/2020",
-        "../2020"
+        join(dirname(__file__), "..", "2020")
     )
