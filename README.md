@@ -1,5 +1,9 @@
 # acc-website-scripts
 [![Build Status](https://travis-ci.com/edmund-reinhardt/ACCN-Toronto-Scripts.svg?branch=master)](https://travis-ci.com/edmund-reinhardt/ACCN-Toronto-Scripts)
+
+## Purpose
+This project contains a set of python scripts to update the sermons on a church website.  The functions performed are detecting which sermons are not yet on the website and uploading them and at the same time maintaining the RSS file that drives podcasts for both Android and Apple mobile devices.  This RSS file can also be generated from scratch from a directory.  Also to migrate older sermons off of the expensive website storage to less expensive cloud storage, there is a rename function that will rename all of the files meaningfully according to the information stored in the ID3 tags of the MP3 files.  All of the functions take advantage of this ID3 information to do the right thing.
+
 ## Installation
 
 * Install python >= 3.8
@@ -21,20 +25,18 @@ pip install -r requirements.txt
 ```
 
 
-## Update RSS XML with sermons detected from mp3 files
+## Generate RSS XML with sermons detected from mp3 files
 Will take an individual or directory-full of mp3 files and update the RSS xml file to list them all
 
 
 ## Upload sermons to website
-compares the mp3 files on the web site with the local directory, and uploads them
-* in the future, the rss xml file will be updated as well
+compares the mp3 files on the web site with the local directory, and uploads them.  The rss xml file that drives podcasts will be updated as well with an additional <item> tag for each new mp3 file and uploaded to the web site.
 
 ### Usage
 * Run `sync.bat` windows batch file
 * This opens `sync_sermons.py` with the local Python (tested with Python `3.8`) 
 * All the .mp3 files in the local folder specified in sync_sermons.py that do not already exists in the remote
 folder specified in sync_sermons.py will be uploaded
-
 
 
 ## Rename sermons to archive them on Google Drive
