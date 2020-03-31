@@ -12,22 +12,32 @@ to the project directory
 * Create a virtual environment 
 named `my_venv` in the project directory:
 ```shell script
-python3 -m venv my_venv
+python -m venv my_venv
 ```
 * Activate the virtual environment to 
 use the specific version of Python and 
 pip from the virtual environment with a 
-command similar to `source venv/Scripts/activate`.
+command similar to `my_venv/Scripts/activate.bat`.
 * Install the required dependencies to 
 the virtual environment:
 ```shell script
 pip install -r requirements.txt
 ```
-
+* create a file ```accweb\credentials.py``` that will hold three variables SERVER, USERNAME and PASSWORD 
+which are the required credentials to access the website's file system via FTP 
 
 ## Generate RSS XML with sermons detected from mp3 files
-Will take an individual or directory-full of mp3 files and update the RSS xml file to list them all
+Will take an individual or directory-full of mp3 files and update the RSS xml file to list them all. 
+This is the way to initially generate the accntoronto_rss.xml file that drives the podcasts on 
+both Google Play Music and Apple Podcasts. 
 
+### Usage
+* Run the `gen_rss.bat` windows batch file.
+* This opens `podcast_xml.py` with Python (tested with Python `3.8`) 
+* You should see a folder selection dialog. Choose the folder that contains the .mp3 files you are interested in.
+* All the .mp3 files in the folder that you selected will be referenced in the accntoronto_rss.xml which is .
+an RSS 2.0 file which is accepted by Google Play Music and Apple Podcasts to drive podcasts there.
+* This will have to be uploaded to the target web site.  
 
 ## Upload sermons to website
 compares the mp3 files on the web site with the local directory, and uploads them.  The rss xml file that drives podcasts will be updated as well with an additional <item> tag for each new mp3 file and uploaded to the web site.
@@ -45,8 +55,7 @@ Extracts date from filename and metadata from .mp3 files and uses this data to r
 ### Usage
 * Run the `rename.bat` windows batch file.
 * This opens `rename_old.py` with Python (tested with Python `3.7` and `3.8`) 
-* You should see a folder selection 
-ontains the .mp3 files you would like renamed
+* You should see a folder selection dialog. Choose the folder that contains the .mp3 files you would like renamed
 * All the .mp3 files in the folder that you selected will be renamed.
 * The renamed files can be moved to Google Drive as an archive and free up web space
 
