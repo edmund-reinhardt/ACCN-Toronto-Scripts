@@ -10,9 +10,9 @@ This project contains a set of python scripts to update the sermons on a church 
 * Open a terminal and navigate 
 to the project directory
 * Create a virtual environment 
-named `venv` in the project directory:
+named `my_venv` in the project directory:
 ```shell script
-python -m venv venv
+python3 -m venv my_venv
 ```
 * Activate the virtual environment to 
 use the specific version of Python and 
