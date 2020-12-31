@@ -1,9 +1,7 @@
 from ftplib import FTP
 from os import listdir, path
 from os.path import join, dirname
-from sys import path
 
-# path = [".."] + path
 from accweb.credentials import SERVER, USERNAME, PASSWORD
 from accweb.podcast_xml import parse_rss_xml, add_item, write_rss_xml, XML_FILE
 

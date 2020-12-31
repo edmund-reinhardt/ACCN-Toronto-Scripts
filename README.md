@@ -17,7 +17,7 @@ python -m venv my_venv
 * Activate the virtual environment to 
 use the specific version of Python and 
 pip from the virtual environment with a 
-command similar to `my_venv/Scripts/activate.bat`.
+command similar to `my_venv\Scripts\activate.bat`.
 * Install the required dependencies to 
 the virtual environment:
 ```shell script
