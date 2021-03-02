@@ -34,6 +34,7 @@ compares the mp3 files on the web site with the local directory, and uploads the
 * This opens `sync_sermons.py` with the local Python (tested with Python `3.8`) 
 * All the .mp3 files in the local folder specified in sync_sermons.py that do not already exists in the remote
 folder specified in sync_sermons.py will be uploaded
+* At the beginning of a new year, sync_sermons.py will have to have the year updated at the bottom of the file
 
 
 
