@@ -2,3 +2,6 @@
 /.project
 /.pydevproject
 /accweb/credentials.py
+/accweb/__pycache__/
+/202*/
+/Choir*/
