@@ -1,6 +1,7 @@
 /.gitconfig
 /.project
 /.pydevproject
+/my_venv/
 /accweb/credentials.py
 /accweb/__pycache__/
 /202*/
