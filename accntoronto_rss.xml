@@ -1506,5 +1506,45 @@
 			<itunes:duration>2588</itunes:duration>
 			<pubDate>Mon, 13 Jul 2020 10:30:00 -0500</pubDate>
 		</item>
+		<item>
+			<title>Doug Savin - Philippians 1</title>
+			<itunes:title>Doug Savin - Philippians 1</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2020/-210425_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-210425_001.mp3" length="126783858" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Doug Savin on Philippians 1</itunes:summary>
+			<guid>13a44e8c90a18fd4b4f44986d70f4a31069b4f38</guid>
+			<itunes:duration>3172</itunes:duration>
+			<pubDate>Sun, 25 Apr 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phil Denzinger - Mark 9</title>
+			<itunes:title>Phil Denzinger - Mark 9</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2020/-210425_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-210425_000.mp3" length="117872828" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phil Denzinger on Mark 9</itunes:summary>
+			<guid>649d15c73d0ee12cd57f732028699e5289d5a34b</guid>
+			<itunes:duration>2949</itunes:duration>
+			<pubDate>Sun, 25 Apr 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - Romans 8</title>
+			<itunes:title>Edmund Reinhardt - Romans 8</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2020/-210502_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-210502_000.mp3" length="130512027" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Edmund Reinhardt on Romans 8</itunes:summary>
+			<guid>37207bb0a5052fbdb6d90a81412db6426a347653</guid>
+			<itunes:duration>3266</itunes:duration>
+			<pubDate>Sun, 02 May 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Psalm 103</title>
+			<itunes:title>Eric Denzinger - Psalm 103</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2020/-210502_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2020/-210502_001.mp3" length="81741415" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Eric Denzinger on Psalm 103</itunes:summary>
+			<guid>5bd26637381424148b519b2a1d9c69712bbd33df</guid>
+			<itunes:duration>2045</itunes:duration>
+			<pubDate>Sun, 02 May 2021 14:30:00 -0500</pubDate>
+		</item>
 	</channel>
 </rss>
