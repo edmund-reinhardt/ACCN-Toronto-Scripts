@@ -22,7 +22,7 @@ def add_item(path: str, tree: ET.ElementTree):
     title.text = title_text
     tunes_title = ET.SubElement(item, 'itunes:title')
     tunes_title.text = title_text
-    url = f"http://accn-toronto.org/media/mp3/sermons/2020/{basename(path)}"
+    url = f"http://accn-toronto.org/media/mp3/sermons/20{date[2:4]}/{basename(path)}"
     link = ET.SubElement(item, 'link')
     link.text = url
     enclosure = ET.SubElement(item, 'enclosure')
