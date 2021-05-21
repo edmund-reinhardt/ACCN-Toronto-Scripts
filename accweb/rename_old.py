@@ -18,7 +18,8 @@ def make_name(date, scripture, speaker):
 
     return filename
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     directory = filedialog.askdirectory()
     for path in glob(join(directory, "*.mp3")):
         print(path)

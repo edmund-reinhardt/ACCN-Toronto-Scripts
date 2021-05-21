@@ -28,7 +28,8 @@ def get_scripture_speaker(path):
     return scripture, speaker, audio_file.info.time_secs
 
 
-def get_date(filename):
+def get_date(filename) -> str:
+    """Parses a sermon filename to return a date string, e.g. 2021-01-13 AM"""
     date = f"20{filename[1:3]}-{filename[3:5]}-{filename[5:7]}"
 
     if filename[8:11] == "000":

@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+from uuid import uuid4
 from datetime import datetime
 from glob import glob
 from os.path import basename, getsize, join, dirname
@@ -11,32 +12,53 @@ import hashlib
 XML_FILE = join(dirname(__file__), "..", "accntoronto_rss.xml")
 
 
-def add_item(path: str, tree: ET.ElementTree):
-    """add the item xml element corresponding to the mp3 file at 'path'
-       as a child of the 'tree' element"""
-    item = ET.SubElement(tree.find("channel"), 'item')
-
+def add_item(path: str, tree: ET.ElementTree) -> ET.SubElement:
+    """add the item xml element corresponding to the mp3 file at the absolute path 'path'
+    as a child of the 'tree' element"""
+    item = ET.SubElement(tree.find("channel"), "item")
     scripture, speaker, date, duration = get_metadata(path)
-    title = ET.SubElement(item, 'title')
+    return create_xml_item(
+        date,
+        duration,
+        basename(path),
+        scripture,
+        speaker,
+        getsize(path),
+        hash_file(path),
+        item,
+    )
+
+
+def create_xml_item(
+    date: str,
+    duration: float,
+    filename: str,
+    scripture: str,
+    speaker: str,
+    file_size: int,
+    uid: str,
+    item: ET.SubElement,
+) -> ET.SubElement:
+    title = ET.SubElement(item, "title")
     title_text = f"{speaker} - {scripture}"
     title.text = title_text
-    tunes_title = ET.SubElement(item, 'itunes:title')
+    tunes_title = ET.SubElement(item, "itunes:title")
     tunes_title.text = title_text
-    url = f"http://accn-toronto.org/media/mp3/sermons/2020/{basename(path)}"
-    link = ET.SubElement(item, 'link')
+    url = f"http://accn-toronto.org/media/mp3/sermons/20{date[2:4]}/{filename}"
+    link = ET.SubElement(item, "link")
     link.text = url
-    enclosure = ET.SubElement(item, 'enclosure')
-    enclosure.set('url', url)
-    enclosure.set('length', str(getsize(path)))
-    enclosure.set('type', 'audio/mpeg')
-    summary = ET.SubElement(item, 'itunes:summary')
+    enclosure = ET.SubElement(item, "enclosure")
+    enclosure.set("url", url)
+    enclosure.set("length", str(file_size))
+    enclosure.set("type", "audio/mpeg")
+    summary = ET.SubElement(item, "itunes:summary")
     time_of_day = get_verbose_am_pm(date)
     summary.text = f"Sunday {time_of_day} service by {speaker} on {scripture}"
-    guid = ET.SubElement(item, 'guid')
-    guid.text = hash_file(path)
-    seconds: ET.Element = ET.SubElement(item, 'itunes:duration')
+    guid = ET.SubElement(item, "guid")
+    guid.text = (uid,)
+    seconds: ET.Element = ET.SubElement(item, "itunes:duration")
     seconds.text = str(round(duration))
-    pub_date = ET.SubElement(item, 'pubDate')
+    pub_date = ET.SubElement(item, "pubDate")
     pub_date.text = get_full_date(date)
     return item
 
@@ -66,17 +88,18 @@ def get_full_date(date: str):
     minutes = 30
     if am_or_pm[1] == "PM":
         hour = 14
-    date_time = datetime(int(date_parts[0]), int(date_parts[1]), int(date_parts[2]), hour, minutes)
+    date_time = datetime(
+        int(date_parts[0]), int(date_parts[1]), int(date_parts[2]), hour, minutes
+    )
     return date_time.strftime(f"%a, %d %b %Y %H:%M:%S -0500")
 
 
 def pretty_print(root: ET.Element) -> str:
-    return strip_empty_lines(minidom.parseString(
-        ET.tostring(
-            root,
-            encoding='unicode',
-            method="xml"
-        )).toprettyxml())
+    return strip_empty_lines(
+        minidom.parseString(
+            ET.tostring(root, encoding="unicode", method="xml")
+        ).toprettyxml()
+    )
 
 
 def strip_empty_lines(multi_line: str) -> str:
@@ -92,7 +115,7 @@ def parse_rss_xml():
 def hash_file(name: str) -> str:
     BLOCKSIZE = 65536
     hasher = hashlib.sha1()
-    with open(name, 'rb') as afile:
+    with open(name, "rb") as afile:
         buf = afile.read(BLOCKSIZE)
         while len(buf) > 0:
             hasher.update(buf)
@@ -122,7 +145,8 @@ def parse_rss_header():
             <itunes:category text="Christianity"/>
         </itunes:category>
     </channel>
-</rss>""")
+</rss>"""
+    )
     return tree
 
 
@@ -135,7 +159,7 @@ def write_rss_xml(tree: ET.ElementTree):
     write_rss_file(pretty_print(tree.getroot()))
 
 
-def write_rss_file(file_contents:str):
+def write_rss_file(file_contents: str):
     with open(XML_FILE, "w") as f:
         f.write(file_contents)
 
@@ -150,7 +174,7 @@ def gen_rss_for_all_in_dir(directory: str):
 
 # Generate all of the RSS XML items from the mp3 files in the directory path specified
 # through file dialog
-if __name__ == '__main__':
+if __name__ == "__main__":
     directory = filedialog.askdirectory()
     file_contents = gen_rss_for_all_in_dir(directory)
     write_rss_file(file_contents)
