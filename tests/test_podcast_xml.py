@@ -53,7 +53,7 @@ def test_hash_file():
     assert "8a2e05eeecd4e9810370226eb7e740f5186ee555" == hash_file(join(dirname(__file__), "-200126_001.mp3"))
 
 
-def test_add_item():
+def test_add_item_2020():
     import xml.etree.ElementTree as ET
     tree = parse_rss_header()
     item = add_item(join(dirname(__file__), "-200126_001.mp3"), tree)
@@ -75,3 +75,21 @@ def test_add_item():
 
 def test_gen_rss_for_all_in_dir():
     assert gen_rss_for_all_in_dir(dirname(__file__)) == RSS_XML_SAMPLE
+
+
+def test_add_item_2021():
+    import xml.etree.ElementTree as ET
+    tree = parse_rss_header()
+    item = add_item(join(dirname(__file__), "-210126_001.mp3"), tree)
+    expected_item = '<item>' \
+            '<title>Phillip Denzinger - John 16</title>' \
+            '<itunes:title>Phillip Denzinger - John 16</itunes:title>' \
+            '<link>http://accn-toronto.org/media/mp3/sermons/2021/-210126_001.mp3</link>' \
+            '<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210126_001.mp3" length="24780946" type="audio/mpeg" />' \
+            '<itunes:summary>Sunday afternoon service by Phillip Denzinger on John 16</itunes:summary>' \
+            '<guid>8a2e05eeecd4e9810370226eb7e740f5186ee555</guid>' \
+            '<itunes:duration>1236</itunes:duration>' \
+            '<pubDate>Tue, 26 Jan 2021 14:30:00 -0500</pubDate>' \
+            '</item>'
+    assert ET.tostring(item, encoding='unicode', method="xml") == \
+        expected_item
