@@ -376,5 +376,615 @@
 			<itunes:duration>1917</itunes:duration>
 			<pubDate>Sun, 16 May 2021 14:30:00 -0500</pubDate>
 		</item>
+		<item>
+			<title>Phillip Denzinger - Matthew 3</title>
+			<itunes:title>Phillip Denzinger - Matthew 3</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210523_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210523_000.mp3" length="112190790" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phillip Denzinger on Matthew 3</itunes:summary>
+			<guid>4a7e9d7d96ce5df31ea2a178ac26c4ec022b886d</guid>
+			<itunes:duration>2807</itunes:duration>
+			<pubDate>Sun, 23 May 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - Acts 2</title>
+			<itunes:title>Doug Savin - Acts 2</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210523_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210523_001.mp3" length="108210760" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Doug Savin on Acts 2</itunes:summary>
+			<guid>1ec805c68b286df2903450786e1e0cc406693242</guid>
+			<itunes:duration>2708</itunes:duration>
+			<pubDate>Sun, 23 May 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - Romans 12</title>
+			<itunes:title>Edmund Reinhardt - Romans 12</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210530_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210530_000.mp3" length="133893339" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Edmund Reinhardt on Romans 12</itunes:summary>
+			<guid>5282e97ca8ad38392ef145e039f87055d3e4e155</guid>
+			<itunes:duration>3350</itunes:duration>
+			<pubDate>Sun, 30 May 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - 1 Corinthians 6</title>
+			<itunes:title>Eric Denzinger - 1 Corinthians 6</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210530_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210530_001.mp3" length="68557889" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Eric Denzinger on 1 Corinthians 6</itunes:summary>
+			<guid>c567c89ae4199f6634d0095ef8a8f76926c9ea16</guid>
+			<itunes:duration>1715</itunes:duration>
+			<pubDate>Sun, 30 May 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - John 11</title>
+			<itunes:title>Eric Denzinger - John 11</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210613_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210613_000.mp3" length="98248602" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Eric Denzinger on John 11</itunes:summary>
+			<guid>3f0c529519abfe9526dbf750b7b5a22c3314e5e6</guid>
+			<itunes:duration>2458</itunes:duration>
+			<pubDate>Sun, 13 Jun 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - Romans 12</title>
+			<itunes:title>Edmund Reinhardt - Romans 12</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210613_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210613_001.mp3" length="66147383" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Edmund Reinhardt on Romans 12</itunes:summary>
+			<guid>c991fbfdef3bd951042c996205a2863e9d01b142</guid>
+			<itunes:duration>1655</itunes:duration>
+			<pubDate>Sun, 13 Jun 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phil Denzinger - Proverbs 3</title>
+			<itunes:title>Phil Denzinger - Proverbs 3</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210620_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210620_000.mp3" length="97788870" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phil Denzinger on Proverbs 3</itunes:summary>
+			<guid>b5f2ac654163d09e8524b352048fc8c1166e7edf</guid>
+			<itunes:duration>2447</itunes:duration>
+			<pubDate>Sun, 20 Jun 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - Genesis 22</title>
+			<itunes:title>Doug Savin - Genesis 22</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210620_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210620_001.mp3" length="113480212" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Doug Savin on Genesis 22</itunes:summary>
+			<guid>15a8829e77aa9c705a8f1a1e8adf34af4cd12fe9</guid>
+			<itunes:duration>2839</itunes:duration>
+			<pubDate>Sun, 20 Jun 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - 2 Corinthians 4</title>
+			<itunes:title>Doug Savin - 2 Corinthians 4</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210606_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210606_000.mp3" length="128761736" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Doug Savin on 2 Corinthians 4</itunes:summary>
+			<guid>077bd25fe8d7771b65099307918e50c9cad65fe5</guid>
+			<itunes:duration>3222</itunes:duration>
+			<pubDate>Sun, 06 Jun 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - 1 Corinthians 9</title>
+			<itunes:title>Eric Denzinger - 1 Corinthians 9</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210627_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210627_000.mp3" length="111123830" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Eric Denzinger on 1 Corinthians 9</itunes:summary>
+			<guid>cedd71b96ef8e90f80f57a674c977b976904ca74</guid>
+			<itunes:duration>2780</itunes:duration>
+			<pubDate>Sun, 27 Jun 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phil Denzinger - Luke 20</title>
+			<itunes:title>Phil Denzinger - Luke 20</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210627_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210627_001.mp3" length="73401972" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Phil Denzinger on Luke 20</itunes:summary>
+			<guid>ea230a26e1e39bc46c8375c233163a43145ca5f7</guid>
+			<itunes:duration>1837</itunes:duration>
+			<pubDate>Sun, 27 Jun 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin  - Acts 14</title>
+			<itunes:title>Doug Savin  - Acts 14</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210704_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210704_001.mp3" length="106899416" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Doug Savin  on Acts 14</itunes:summary>
+			<guid>64eaa06e045bc5a35bd95fab4a06e794cc8701d3</guid>
+			<itunes:duration>2675</itunes:duration>
+			<pubDate>Sun, 04 Jul 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - 1 Corinthians 11</title>
+			<itunes:title>Edmund Reinhardt - 1 Corinthians 11</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210704_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210704_000.mp3" length="118012972" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Edmund Reinhardt on 1 Corinthians 11</itunes:summary>
+			<guid>16f8647f2d41c6ed0f808f6ec9fd8e8fb66ba8ba</guid>
+			<itunes:duration>2953</itunes:duration>
+			<pubDate>Sun, 04 Jul 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - Colossians 3</title>
+			<itunes:title>Phillip Denzinger - Colossians 3</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210711_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210711_000.mp3" length="113221088" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phillip Denzinger on Colossians 3</itunes:summary>
+			<guid>178bff8dd7fe453940a8b054e08087e6f1fba6f3</guid>
+			<itunes:duration>2833</itunes:duration>
+			<pubDate>Sun, 11 Jul 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Mark 5</title>
+			<itunes:title>Eric Denzinger - Mark 5</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210711_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210711_001.mp3" length="63355408" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Eric Denzinger on Mark 5</itunes:summary>
+			<guid>795c9c359231cb6e6c50869a53e01ed721560f47</guid>
+			<itunes:duration>1585</itunes:duration>
+			<pubDate>Sun, 11 Jul 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - Luke 15</title>
+			<itunes:title>Doug Savin - Luke 15</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210718_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210718_000.mp3" length="117534296" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Doug Savin on Luke 15</itunes:summary>
+			<guid>fbd344cd1412dc79e79928ec944e7e7dbdafaf63</guid>
+			<itunes:duration>2941</itunes:duration>
+			<pubDate>Sun, 18 Jul 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reindhart - Proverbs 22</title>
+			<itunes:title>Edmund Reindhart - Proverbs 22</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210718_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210718_001.mp3" length="59034628" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Edmund Reindhart on Proverbs 22</itunes:summary>
+			<guid>4364d8550cad4d93a8b46e517c2a1965c623f160</guid>
+			<itunes:duration>1477</itunes:duration>
+			<pubDate>Sun, 18 Jul 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - 1 John 3</title>
+			<itunes:title>Eric Denzinger - 1 John 3</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210725_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210725_000.mp3" length="96417028" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Eric Denzinger on 1 John 3</itunes:summary>
+			<guid>b8061278c3e6ff9b6e01ff52e230ff561ed7f4d5</guid>
+			<itunes:duration>2412</itunes:duration>
+			<pubDate>Sun, 25 Jul 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - Phillipians 3</title>
+			<itunes:title>Phillip Denzinger - Phillipians 3</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210725_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210725_001.mp3" length="94436810" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Phillip Denzinger on Phillipians 3</itunes:summary>
+			<guid>4b3d4a575ab505538bd2941898a76005bdc19d48</guid>
+			<itunes:duration>2363</itunes:duration>
+			<pubDate>Sun, 25 Jul 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - 1 Corinthians 2</title>
+			<itunes:title>Doug Savin - 1 Corinthians 2</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210801_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210801_000.mp3" length="114710972" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Doug Savin on 1 Corinthians 2</itunes:summary>
+			<guid>803c9b4cfac98da846cca1ddd8929bce4e617a3d</guid>
+			<itunes:duration>2870</itunes:duration>
+			<pubDate>Sun, 01 Aug 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - 1 Corinthians 16</title>
+			<itunes:title>Doug Savin - 1 Corinthians 16</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210801_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210801_001.mp3" length="123552899" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Doug Savin on 1 Corinthians 16</itunes:summary>
+			<guid>fe63daff87aad4a81a0b25ec79f5174fb236df61</guid>
+			<itunes:duration>3091</itunes:duration>
+			<pubDate>Sun, 01 Aug 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - Psalms 46</title>
+			<itunes:title>Edmund Reinhardt - Psalms 46</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210808_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210808_000.mp3" length="92929132" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Edmund Reinhardt on Psalms 46</itunes:summary>
+			<guid>1237577af4345a472ea50b5c812b4063fdaeb8df</guid>
+			<itunes:duration>2325</itunes:duration>
+			<pubDate>Sun, 08 Aug 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Ephesians 1</title>
+			<itunes:title>Eric Denzinger - Ephesians 1</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210808_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210808_001.mp3" length="70264282" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Eric Denzinger on Ephesians 1</itunes:summary>
+			<guid>1590d4df21ccf85b0558d0ee0bd25b24f14d422f</guid>
+			<itunes:duration>1758</itunes:duration>
+			<pubDate>Sun, 08 Aug 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - John 3</title>
+			<itunes:title>Doug Savin - John 3</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210815_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210815_000.mp3" length="128963502" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Doug Savin on John 3</itunes:summary>
+			<guid>a814460b741b13ec9ca9a022a1be820a8f0f0298</guid>
+			<itunes:duration>3227</itunes:duration>
+			<pubDate>Sun, 15 Aug 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - Romans 5</title>
+			<itunes:title>Phillip Denzinger - Romans 5</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210815_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210815_001.mp3" length="93854941" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Phillip Denzinger on Romans 5</itunes:summary>
+			<guid>212ee1a48bc1173f5ee1692480a4ab8a8fee52ee</guid>
+			<itunes:duration>2348</itunes:duration>
+			<pubDate>Sun, 15 Aug 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Ephesians 1</title>
+			<itunes:title>Eric Denzinger - Ephesians 1</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210822_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210822_000.mp3" length="95716952" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Eric Denzinger on Ephesians 1</itunes:summary>
+			<guid>3ffa7e53ed991d525d447ee5e133493a6818679b</guid>
+			<itunes:duration>2395</itunes:duration>
+			<pubDate>Sun, 22 Aug 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - 1 Thessalonians 5</title>
+			<itunes:title>Phillip Denzinger - 1 Thessalonians 5</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210829_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210829_000.mp3" length="97436871" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phillip Denzinger on 1 Thessalonians 5</itunes:summary>
+			<guid>68c7702969eb4726439247a0214c2eeaf388526b</guid>
+			<itunes:duration>2438</itunes:duration>
+			<pubDate>Sun, 29 Aug 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - Hebrews 3</title>
+			<itunes:title>Doug Savin - Hebrews 3</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210829_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210829_001.mp3" length="114883484" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Doug Savin on Hebrews 3</itunes:summary>
+			<guid>91504b9fff865ddecad9435c2f0ae97caee2296a</guid>
+			<itunes:duration>2875</itunes:duration>
+			<pubDate>Sun, 29 Aug 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - Matthew 7</title>
+			<itunes:title>Doug Savin - Matthew 7</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210905_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210905_000.mp3" length="136797108" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Doug Savin on Matthew 7</itunes:summary>
+			<guid>71327a38c0aa9cb683ee18d5597e5ec37bf4bdbb</guid>
+			<itunes:duration>3423</itunes:duration>
+			<pubDate>Sun, 05 Sep 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Genesis 39</title>
+			<itunes:title>Eric Denzinger - Genesis 39</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210905_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210905_001.mp3" length="60410869" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Eric Denzinger on Genesis 39</itunes:summary>
+			<guid>0df51546045802e3682c5d75df8d3a297dce7a94</guid>
+			<itunes:duration>1512</itunes:duration>
+			<pubDate>Sun, 05 Sep 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Ephesians 2</title>
+			<itunes:title>Eric Denzinger - Ephesians 2</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210912_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210912_000.mp3" length="112996406" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Eric Denzinger on Ephesians 2</itunes:summary>
+			<guid>9fe37555f947126c764315e53f4aae3de841819f</guid>
+			<itunes:duration>2827</itunes:duration>
+			<pubDate>Sun, 12 Sep 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phil Denzinger - John 19</title>
+			<itunes:title>Phil Denzinger - John 19</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210912_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210912_001.mp3" length="62075278" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Phil Denzinger on John 19</itunes:summary>
+			<guid>dd38166ddf6e460636f6f5684b132da5245cbe0c</guid>
+			<itunes:duration>1553</itunes:duration>
+			<pubDate>Sun, 12 Sep 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - Mathew 7</title>
+			<itunes:title>Phillip Denzinger - Mathew 7</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210919_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210919_000.mp3" length="101645607" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phillip Denzinger on Mathew 7</itunes:summary>
+			<guid>9ff9718d80b5ca8102152a342540cd3d3f3f128e</guid>
+			<itunes:duration>2543</itunes:duration>
+			<pubDate>Sun, 19 Sep 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Psalms 94</title>
+			<itunes:title>Eric Denzinger - Psalms 94</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210919_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210919_001.mp3" length="69830646" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Eric Denzinger on Psalms 94</itunes:summary>
+			<guid>640bf9b818a22f72ced067f90d8b7f71227989fc</guid>
+			<itunes:duration>1747</itunes:duration>
+			<pubDate>Sun, 19 Sep 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - Romans 8</title>
+			<itunes:title>Edmund Reinhardt - Romans 8</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210926_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210926_000.mp3" length="125028403" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Edmund Reinhardt on Romans 8</itunes:summary>
+			<guid>880fcb390aac3e3e317778efadea29090acb2861</guid>
+			<itunes:duration>3128</itunes:duration>
+			<pubDate>Sun, 26 Sep 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - 2 Peter 1</title>
+			<itunes:title>Doug Savin - 2 Peter 1</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-210926_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-210926_001.mp3" length="137593320" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Doug Savin on 2 Peter 1</itunes:summary>
+			<guid>a3a79aee4b5fd878c403f45b2c1e200eb918fc1e</guid>
+			<itunes:duration>3443</itunes:duration>
+			<pubDate>Sun, 26 Sep 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Ephesians 3</title>
+			<itunes:title>Eric Denzinger - Ephesians 3</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211003_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211003_000.mp3" length="98063657" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Eric Denzinger on Ephesians 3</itunes:summary>
+			<guid>d14692213ba661cd5a757ca1e3ec9ae5a2953c40</guid>
+			<itunes:duration>2454</itunes:duration>
+			<pubDate>Sun, 03 Oct 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phil Denzinger - Matthew 7</title>
+			<itunes:title>Phil Denzinger - Matthew 7</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211003_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211003_001.mp3" length="86138234" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Phil Denzinger on Matthew 7</itunes:summary>
+			<guid>6ab1c887e2cf679cdbfeb68e6e42b07d26441ecb</guid>
+			<itunes:duration>2155</itunes:duration>
+			<pubDate>Sun, 03 Oct 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - Psalams 100</title>
+			<itunes:title>Doug Savin - Psalams 100</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211010_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211010_000.mp3" length="106504338" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Doug Savin on Psalams 100</itunes:summary>
+			<guid>f644a42c84f64af97a0a8a768e808ad2da0c1b86</guid>
+			<itunes:duration>2665</itunes:duration>
+			<pubDate>Sun, 10 Oct 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - Philipians 4</title>
+			<itunes:title>Edmund Reinhardt - Philipians 4</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211010_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211010_001.mp3" length="65456681" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Edmund Reinhardt on Philipians 4</itunes:summary>
+			<guid>ee800779d3c2a596b16641b878e846a1a116368d</guid>
+			<itunes:duration>1638</itunes:duration>
+			<pubDate>Sun, 10 Oct 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - Deuteronomy 6</title>
+			<itunes:title>Phillip Denzinger - Deuteronomy 6</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211017_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211017_000.mp3" length="91927114" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phillip Denzinger on Deuteronomy 6</itunes:summary>
+			<guid>637ef4cd95d16da7dbf416036697e4d1bde1b7ba</guid>
+			<itunes:duration>2300</itunes:duration>
+			<pubDate>Sun, 17 Oct 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Ephesians 4</title>
+			<itunes:title>Eric Denzinger - Ephesians 4</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211017_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211017_001.mp3" length="54730830" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Eric Denzinger on Ephesians 4</itunes:summary>
+			<guid>57c8bd039e897b4488039d38bc3347e65b63220f</guid>
+			<itunes:duration>1369</itunes:duration>
+			<pubDate>Sun, 17 Oct 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reindhart - Proverbs 15</title>
+			<itunes:title>Edmund Reindhart - Proverbs 15</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211024_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211024_000.mp3" length="98711496" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Edmund Reindhart on Proverbs 15</itunes:summary>
+			<guid>0a66013304611f6b7d8e853b7902fe94fb54ef6f</guid>
+			<itunes:duration>2470</itunes:duration>
+			<pubDate>Sun, 24 Oct 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - Isaiah 61</title>
+			<itunes:title>Doug Savin - Isaiah 61</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211024_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211024_001.mp3" length="52902250" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Doug Savin on Isaiah 61</itunes:summary>
+			<guid>285c33e8d8f1c93d6b1edb3f42f1fcbd2177a708</guid>
+			<itunes:duration>1324</itunes:duration>
+			<pubDate>Sun, 24 Oct 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Ephesians 4</title>
+			<itunes:title>Eric Denzinger - Ephesians 4</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211031_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211031_000.mp3" length="93041910" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Eric Denzinger on Ephesians 4</itunes:summary>
+			<guid>b106f50755f63ac73edef3d73852909acf2b704d</guid>
+			<itunes:duration>2328</itunes:duration>
+			<pubDate>Sun, 31 Oct 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - Mathew 13</title>
+			<itunes:title>Phillip Denzinger - Mathew 13</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211031_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211031_001.mp3" length="77034176" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Phillip Denzinger on Mathew 13</itunes:summary>
+			<guid>c197b0e7309fd9638939d81ed577667ee4cdc377</guid>
+			<itunes:duration>1928</itunes:duration>
+			<pubDate>Sun, 31 Oct 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Dan Tomic - Ephesians 2</title>
+			<itunes:title>Dan Tomic - Ephesians 2</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211107_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211107_000.mp3" length="96302089" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Dan Tomic on Ephesians 2</itunes:summary>
+			<guid>4296c17748c57a6d006d4089b9a709c62e754a9e</guid>
+			<itunes:duration>2410</itunes:duration>
+			<pubDate>Sun, 07 Nov 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - Isaiah 41</title>
+			<itunes:title>Edmund Reinhardt - Isaiah 41</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211114_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211114_000.mp3" length="91459952" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Edmund Reinhardt on Isaiah 41</itunes:summary>
+			<guid>e3fdbc3bb97f849dc335d6324e0dd7e743a3d4e3</guid>
+			<itunes:duration>2288</itunes:duration>
+			<pubDate>Sun, 14 Nov 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Ephesians 4</title>
+			<itunes:title>Eric Denzinger - Ephesians 4</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211114_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211114_001.mp3" length="66764922" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Eric Denzinger on Ephesians 4</itunes:summary>
+			<guid>69d348c0977fc9cd2f3f9bc0e849bb415e89bbce</guid>
+			<itunes:duration>1671</itunes:duration>
+			<pubDate>Sun, 14 Nov 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - James 5</title>
+			<itunes:title>Phillip Denzinger - James 5</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211121_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211121_000.mp3" length="87004589" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phillip Denzinger on James 5</itunes:summary>
+			<guid>501b2c77b9f83288711d981e0886f0ae0a260b49</guid>
+			<itunes:duration>2177</itunes:duration>
+			<pubDate>Sun, 21 Nov 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Eric Denzinger - Ephesians 5</title>
+			<itunes:title>Eric Denzinger - Ephesians 5</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211128_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211128_000.mp3" length="94373214" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Eric Denzinger on Ephesians 5</itunes:summary>
+			<guid>aea1d577f8c6ebc36d505d877a3ef4df9ebd9725</guid>
+			<itunes:duration>2361</itunes:duration>
+			<pubDate>Sun, 28 Nov 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - Isaiah 46</title>
+			<itunes:title>Edmund Reinhardt - Isaiah 46</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211128_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211128_001.mp3" length="49234665" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Edmund Reinhardt on Isaiah 46</itunes:summary>
+			<guid>81b8f31ccd201a9ff6b21a78fd42f4e97cc1733d</guid>
+			<itunes:duration>1232</itunes:duration>
+			<pubDate>Sun, 28 Nov 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - 1 John 2</title>
+			<itunes:title>Doug Savin - 1 John 2</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211205_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211205_000.mp3" length="135352011" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Doug Savin on 1 John 2</itunes:summary>
+			<guid>d23ac7270acf70df71f3851eb91097b1cefe1406</guid>
+			<itunes:duration>3387</itunes:duration>
+			<pubDate>Sun, 05 Dec 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phil Denzinger - Genesis 32</title>
+			<itunes:title>Phil Denzinger - Genesis 32</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211205_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211205_001.mp3" length="69572423" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Phil Denzinger on Genesis 32</itunes:summary>
+			<guid>120fe2a61c7069f875213bfa21f3a1f1ee18de53</guid>
+			<itunes:duration>1741</itunes:duration>
+			<pubDate>Sun, 05 Dec 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Edmund Reinhardt - Luke 1</title>
+			<itunes:title>Edmund Reinhardt - Luke 1</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211212_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211212_000.mp3" length="101263263" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Edmund Reinhardt on Luke 1</itunes:summary>
+			<guid>9eb2dc00a41e5bf9bbe52d48921a0a1adb14df02</guid>
+			<itunes:duration>2534</itunes:duration>
+			<pubDate>Sun, 12 Dec 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - Luke 19</title>
+			<itunes:title>Doug Savin - Luke 19</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211212_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211212_001.mp3" length="96238344" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Doug Savin on Luke 19</itunes:summary>
+			<guid>18f6c4aa8cd85bd9b9dabdb5da03b416878ca2c0</guid>
+			<itunes:duration>2408</itunes:duration>
+			<pubDate>Sun, 12 Dec 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - John 1</title>
+			<itunes:title>Phillip Denzinger - John 1</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211219_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211219_000.mp3" length="90745297" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phillip Denzinger on John 1</itunes:summary>
+			<guid>935d9b20cc3bc4869d5cb4c8aa85a9a1680a2a8b</guid>
+			<itunes:duration>2271</itunes:duration>
+			<pubDate>Sun, 19 Dec 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - Proverbs 3</title>
+			<itunes:title>Doug Savin - Proverbs 3</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211219_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211219_001.mp3" length="98284126" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Doug Savin on Proverbs 3</itunes:summary>
+			<guid>21dee3f98d5ad3ccf1d22792ec96491805ece3be</guid>
+			<itunes:duration>2459</itunes:duration>
+			<pubDate>Sun, 19 Dec 2021 14:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - Luke 2</title>
+			<itunes:title>Phillip Denzinger - Luke 2</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211225_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211225_000.mp3" length="93582126" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Phillip Denzinger on Luke 2</itunes:summary>
+			<guid>c9005590f17168cf048628c6fab93861c067bc6f</guid>
+			<itunes:duration>2341</itunes:duration>
+			<pubDate>Sat, 25 Dec 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Doug Savin - Jeremiah 1</title>
+			<itunes:title>Doug Savin - Jeremiah 1</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211226_000.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211226_000.mp3" length="126092130" type="audio/mpeg"/>
+			<itunes:summary>Sunday morning service by Doug Savin on Jeremiah 1</itunes:summary>
+			<guid>20c1b7b06550db623d99a1fdc1a1753733b45a25</guid>
+			<itunes:duration>3155</itunes:duration>
+			<pubDate>Sun, 26 Dec 2021 10:30:00 -0500</pubDate>
+		</item>
+		<item>
+			<title>Phillip Denzinger - John 5</title>
+			<itunes:title>Phillip Denzinger - John 5</itunes:title>
+			<link>http://accn-toronto.org/media/mp3/sermons/2021/-211226_001.mp3</link>
+			<enclosure url="http://accn-toronto.org/media/mp3/sermons/2021/-211226_001.mp3" length="88772560" type="audio/mpeg"/>
+			<itunes:summary>Sunday afternoon service by Phillip Denzinger on John 5</itunes:summary>
+			<guid>0dec73f7ea52ead5bb0483494cc1356b12fc5aa2</guid>
+			<itunes:duration>2221</itunes:duration>
+			<pubDate>Sun, 26 Dec 2021 14:30:00 -0500</pubDate>
+		</item>
 	</channel>
 </rss>
