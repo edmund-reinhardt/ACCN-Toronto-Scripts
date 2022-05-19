@@ -48,6 +48,6 @@ if __name__ == '__main__':
         SERVER,
         USERNAME,
         PASSWORD,
-        "/accn-toronto.org/public_html/media/mp3/sermons/2022",
+        "/old.accn-toronto.org/public_html/media/mp3/sermons/2022",
         join(dirname(__file__), "..\..", "2022")
     )

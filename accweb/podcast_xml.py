@@ -22,7 +22,7 @@ def add_item(path: str, tree: ET.ElementTree):
     title.text = title_text
     tunes_title = ET.SubElement(item, 'itunes:title')
     tunes_title.text = title_text
-    url = f"http://accn-toronto.org/media/mp3/sermons/20{date[2:4]}/{basename(path)}"
+    url = f"http://old.accn-toronto.org/media/mp3/sermons/20{date[2:4]}/{basename(path)}"
     link = ET.SubElement(item, 'link')
     link.text = url
     enclosure = ET.SubElement(item, 'enclosure')
@@ -111,13 +111,13 @@ def parse_rss_header():
         <itunes:owner>
             <itunes:email>accntoronto@gmail.com</itunes:email>
         </itunes:owner>
-        <itunes:image href="http://accn-toronto.org/media/mp3/sermons/podcastImage.png"/>
+        <itunes:image href="http://old.accn-toronto.org/media/mp3/sermons/podcastImage.png"/>
         <itunes:summary>
             Sermons and other audio from Apostolic Christian Church in Toronto, ON
         </itunes:summary>
         <language>en</language>
         <itunes:explicit>no</itunes:explicit>
-        <link>http://accn-toronto.org/sermons</link>
+        <link>http://old.accn-toronto.org/sermons</link>
         <itunes:category text="Religion &amp; Spirituality">
             <itunes:category text="Christianity"/>
         </itunes:category>
